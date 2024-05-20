@@ -30,7 +30,7 @@ the spatial domains information, identifying the domain-specific SVGs;
 First, let’s load the package and the data. We focus on human breast
 cancer data from 10x Visium technology. The data includes spatial gene
 expression, spatial meta information and morphology image. Please download 
-the morphology image from [.tiff](https://www.10xgenomics.com/datasets/human-breast-cancer-block-a-section-1-1-standard-1-1-0). The data contains 3798 spots
+the human breast cancer datasets from [zenodo](https://doi.org/10.5281/zenodo.11218339). The data contains 3798 spots
 and 36601 genes.
 
 ``` r
