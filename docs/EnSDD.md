@@ -663,19 +663,34 @@ plot_enrich
 # Inferring the cell type distribution
 
 EnSDD employs RCTD to infer the cell type composition for SRT. Given the
-spatial domains and the cell type compositions in spots, EnSDD explores
+spatial domains and the cell type compositions in spots, EnSDD explores
 the differences of cell type abundances between spatial domains, which
 further dissects the cell type heterogeneity of the tissue. We use the
 run.RCTD function in the spacexr R package for the inferring the cell
 type abundances for the SRT data. We download the reference of human
-breast cancer from DISCO (<https://www.immunesinglecell.org/>). \| Cell
-type \| Number of cells \| \|:————:\|:—————:\| \| B cells \| 3206 \| \|
-CAFs \| 6573 \| \| Cancer epithelial \| 24489 \| \| Cycling T cells \|
-1528 \| \| Cycling myeloid \| 463 \| \| DCs \| 955 \| \| Endothelial \|
-7605 \| \| Macrophage \| 5929 \| \| Monocyte \| 2328 \| \| NK cells \|
-1864 \| \| NKT cells \| 1122 \| \| Normal epithelial \| 4355 \| \|
-Plasmablasts \| 3524 \| \| PVL \| 5423 \| \| T cells CD4+ \| 19231 \| \|
-T cells CD4+ \| 11487 \|
+breast cancer from wu (GSE176078) (<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078>). 
+
+|  Cell type   | Number of cells |
+|:------------:|:---------------:|
+|   B cells           |       3206      |
+|   CAFs              |       6573      |
+|  Cancer epithelial  |       24489     |
+|  Cycling T cells    |       1528      |
+|  Cycling myeloid    |       463       |
+|   DCs               |       955       |
+|   Endothelial       |       7605      |
+|   Macrophage        |       5929      |
+|   Monocyte          |       2328      |
+|   NK cells          |       1864      |
+|   NKT cells         |       1122      |
+|  Normal epithelial  |       4355      |
+|   Plasmablasts      |       3524      |
+|    PVL              |       5423      |
+|   T cells CD4+      |       19231     |
+|   T cells CD8+      |       11487     |
+
+
+
 
 ``` r
 load("../data/breastdata_rctd.RData")
