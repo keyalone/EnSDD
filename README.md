@@ -22,7 +22,7 @@ identification of spatial domains based on the ensemble similarity
 matrix of spots. R package applies ensemble learning for the
 deconvolution of spatial transcriptomic data.
 
-![alt text](https://github.com/keyalone/EnSDD/blob/master/docs/fig1.png?raw=true)
+![alt text](https://github.com/keyalone/EnSDD/blob/master/docs/fig1.png)
 
 The EnSDD package has the main following R-package dependencies: Seurat,
 parallel, abind, SingleCellExperiment, scran, scater, BayesSpace, DR.SC,
