@@ -20,11 +20,12 @@ evaluation metric for individual spatial clustering methods; (4) EnSDD
 incorporates Louvain's algorithm with adaptive resolution for the
 identification of spatial domains based on the ensemble similarity
 matrix of spots. R package applies ensemble learning for the
-deconvolution of spatial transcriptomic data. We offers 
+deconvolution of spatial transcriptomic data. We offer
 an interactive platform to facilitate easier implementation
 and visualization for users [EnSDD-shiny](https://github.com/keyalone/EnSDD-shiny).
 
-![Image](https://github.com/keyalone/EnSDD/blob/master/docs/fig1.png)
+![](https://github.com/keyalone/EnSDD/blob/master/docs/fig1.png)
+
 
 The EnSDD package has the main following R-package dependencies: Seurat,
 parallel, abind, SingleCellExperiment, scran, scater, BayesSpace, DR.SC,
