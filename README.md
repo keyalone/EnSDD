@@ -75,7 +75,8 @@ environment of conda and set the path to the python_env variable in the
 function of run_individual_clustering in our package. The path is
 similar to "\~/.conda/envs/EnSDD/bin/python" on the ubuntu and
 "\~/anaconda3/envs/EnSDD/python.ext" on Windows. 
-\* **Install R dependencies**
+
+-   **Install R dependencies**
 
 BayesSpace
 
