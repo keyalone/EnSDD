@@ -6,7 +6,7 @@ spatial transcriptomics with EnSDD"**.
 EnSDD integrates multiple base spatial domain detection (SDD) methods
 using a weighted optimization model to generate a consensus similarity
 matrix and introduces Louvain's algorithm to define spatial domains.
-EnSDD mainly includes four steps: (1) running each base SDD method
+EnSDD mainly includes four steps: (1) Running each base SDD method
 individually to obtain the base clustering label vector; (2) For each
 individual clustering result vector, a binary similarity matrix is then
 constructed based on the corresponding spot labels: if two spots belong
