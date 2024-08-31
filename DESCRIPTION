@@ -1,0 +1,37 @@
+Package: EnSDD
+Type: Package
+Title: EnSDD: spatial domain detection in spatial transcriptomics data via ensemble learning
+Version: 0.1.0
+Author: Huisheng,Li and Yuting,Tan
+Maintainer: Huisheng,Li and Yuting,Tan <lihs@zjut.edu.cn>
+Description: EnSDD mainly is designed for the dection of spatial domain for SRT data. 
+             Leveraging the information of spatial domain of tissue, EnSDD also enables to 
+             detect domain-specific spatially variable genes and infer the spatial distribution of cell type.
+Depends: R (>= 3.5.0), dplyr
+Imports: Seurat,
+         parallel,
+         abind,
+         SingleCellExperiment,
+         scran,
+         scater,
+         BayesSpace,
+         DR.SC,
+         mclust,
+         reticulate,
+         spdep,
+         spacexr,
+         igraph, 
+         ggplot2,
+         ggrepel,
+         ggpubr, 
+         reshape2, 
+         networkD3
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.3.1
+License: GPL(>= 2)
+Encoding: UTF-8
+LazyData: true
+biocViews:
+Remotes:
+      dmcable/spacexr

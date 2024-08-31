@@ -1,0 +1,74 @@
+"0","suppressMessages(Seurat.data <- data_process(counts_path, loc_path, img_path, n_HVG = 2000, n_PCA = 30))
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
+"2","Warning:"
+"2"," useNames = NA is deprecated. Instead, specify either useNames = TRUE or useNames = FALSE.
+"
