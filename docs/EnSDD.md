@@ -31,10 +31,9 @@ types.
 First, let’s load the package and the data. We focus on human breast
 cancer data from 10x Visium platform. The data includes spatial gene
 expression, spatial meta information and morphology image. We provide
-the data at the
-*Z**e**n**o**d**o**d**a**t**a**r**e**p**o**s**i**t**o**r**y*
-(<https://zenodo.org/records/11244180>). The data contains 3798 spots
-and 36601 genes.
+the data at the [zenodo](https://zenodo.org/records/13621803) and the morphology image from 
+[Image(TIFF)](https://www.10xgenomics.com/datasets/human-breast-cancer-block-a-section-1-1-standard-1-1-0). 
+The data contains 3798 spots and 36601 genes.
 
 ``` r
 suppressMessages(library(EnSDD))
@@ -531,14 +530,25 @@ further dissects the cell type heterogeneity of the tissue. We use the
 run.RCTD function in the spacexr R package for the inferring the cell
 type abundances for the SRT data. We download the reference of human
 breast cancer from GEO database
-(<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078>). \|
-Cell type \| Number of cells \| \|:————:\|:—————:\| \| B cells \| 3206
-\| \| CAFs \| 6573 \| \| Cancer epithelial \| 24489 \| \| Cycling T
-cells \| 1528 \| \| Cycling myeloid \| 463 \| \| DCs \| 955 \| \|
-Endothelial \| 7605 \| \| Macrophage \| 5929 \| \| Monocyte \| 2328 \|
-\| NK cells \| 1864 \| \| NKT cells \| 1122 \| \| Normal epithelial \|
-4355 \| \| Plasmablasts \| 3524 \| \| PVL \| 5423 \| \| T cells CD4+ \|
-19231 \| \| T cells CD4+ \| 11487 \|
+(<https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078>). 
+|  Cell type   | Number of cells |
+|:------------:|:---------------:|
+|   B cells           |       3206      |
+|   CAFs              |       6573      |
+|  Cancer epithelial  |       24489     |
+|  Cycling T cells    |       1528      |
+|  Cycling myeloid    |       463       |
+|   DCs               |       955       |
+|   Endothelial       |       7605      |
+|   Macrophage        |       5929      |
+|   Monocyte          |       2328      |
+|   NK cells          |       1864      |
+|   NKT cells         |       1122      |
+|  Normal epithelial  |       4355      |
+|   Plasmablasts      |       3524      |
+|    PVL              |       5423      |
+|   T cells CD4+      |       19231     |
+|   T cells CD8+      |       11487     |
 
 ``` r
 load("../data/breastdata_rctd.RData")

@@ -23,7 +23,7 @@ deconvolution of spatial transcriptomic data. We offer
 an interactive platform to facilitate easier implementation
 and visualization for users [EnSDD-shiny](https://github.com/keyalone/EnSDD-shiny).
 
-![Schematic overview of EnSDD](fig1.png)
+![Schematic overview of EnSDD](Fig1.png)
 
 
 The EnSDD package requires the main following R-package dependencies: Seurat,
